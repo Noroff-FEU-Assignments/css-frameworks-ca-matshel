@@ -1,0 +1,95 @@
+.accordion-body-share {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	padding: 20px;
+	max-width: 400px;
+	margin: 0 auto;
+	p {
+		text-transform: uppercase;
+	}
+}
+
+.carousel-indicators button {
+	width: 30px !important;
+	height: 30px !important;
+}
+.carousel-indicators .active {
+	background-color: $primary !important;
+}
+
+#nav-first {
+	display: flex;
+}
+
+.info {
+	width: 100%;
+	max-width: 1140px;
+	margin: 0 auto;
+}
+
+#accordionPanelsStayOpenExample {
+	width: 90%;
+	margin: 0 auto;
+}
+
+#nav-tabContent img {
+	width: 238px;
+	height: 149px;
+}
+
+.tabs-container {
+	width: 100%;
+	max-width: 1140px;
+
+	margin: 0 auto;
+	margin-top: 50px;
+	margin-bottom: 200px;
+}
+
+.tabs-container nav,
+.tab-content {
+	margin: 0 auto;
+}
+
+#nav-tabContent {
+	background-color: $quinary;
+}
+
+.tab-pane {
+	padding: 40px;
+}
+
+.tab-content-info {
+	padding-left: 20px;
+	&-share {
+		display: flex;
+		text-transform: uppercase;
+		margin-top: 50px;
+	}
+	i {
+		margin: 0 10px 0 10px;
+	}
+	p {
+		margin-top: 0;
+	}
+}
+
+// .tab-content > .active {
+// 	display: flex !important;
+// }
+
+#nav-tab,
+#nav-tabContent {
+	display: none;
+}
+
+@media (min-width: 768px) {
+	#accordionPanelsStayOpenExample {
+		display: none;
+	}
+	#nav-tab,
+	#nav-tabContent {
+		display: flex;
+	}
+}

@@ -1,0 +1,50 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+html,
+body {
+	height: 100%;
+}
+
+body {
+	display: flex;
+	flex-direction: column;
+	background-color: $secondary;
+}
+
+h1 {
+	padding: 50px 0 20px 10px;
+}
+
+p {
+	color: $tertiary;
+	margin: 10px;
+	padding: 10px;
+}
+
+.btn {
+	color: $quinary;
+	text-transform: uppercase;
+	position: relative;
+}
+
+.btn-lower {
+	text-transform: none;
+}
+
+img {
+	width: 100%;
+}
+
+.container {
+	margin: 20px 0;
+	max-width: 100%;
+}
+
+.wrapper {
+	flex: 1 0 auto;
+	background-image: linear-gradient($quinary, $secondary);
+}

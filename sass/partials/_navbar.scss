@@ -1,0 +1,19 @@
+.navbar-toggler {
+	border: none;
+}
+
+.navbar-light .navbar-nav > .nav-link {
+	color: #0a0a0a;
+}
+.navbar-light .navbar-nav .active > .nav-link {
+	background-color: $quinary;
+}
+
+a span {
+	text-transform: uppercase;
+}
+
+.navbar-brand {
+	font-family: $fontSecondary;
+	font-style: italic;
+}

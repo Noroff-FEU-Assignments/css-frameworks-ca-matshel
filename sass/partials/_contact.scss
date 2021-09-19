@@ -1,0 +1,32 @@
+.email,
+.phone,
+.location {
+	display: flex;
+}
+
+.email i,
+.phone i {
+	margin-right: 20px;
+}
+
+.location i {
+	margin-right: 28px;
+}
+
+// h1 {
+// 	display: flex;
+// 	align-items: left;
+// }
+
+.location {
+	line-height: 0.5;
+}
+
+form {
+	max-width: 555px;
+}
+
+.contact-form .btn {
+	background-color: $tertiary;
+	text-transform: none;
+}

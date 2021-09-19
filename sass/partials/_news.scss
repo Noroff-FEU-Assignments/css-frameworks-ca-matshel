@@ -1,0 +1,46 @@
+.pagination-container {
+	width: 288px;
+	max-width: 1182px;
+	margin: 0 auto;
+}
+
+.cards-container {
+	width: 100%;
+	max-width: 1182px;
+	gap: 10px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+	margin: 0 auto;
+	padding-bottom: 20px;
+}
+
+.cards-container .btn::after {
+	content: "";
+	position: absolute;
+	top: 0;
+	right: 0;
+	width: 32px;
+	height: 100%;
+	background-color: $tertiary;
+}
+
+@media (min-width: 585px) {
+	.pagination-container,
+	.news {
+		width: 586px;
+	}
+}
+@media (min-width: 883px) {
+	.pagination-container,
+	.news {
+		width: 884px;
+	}
+}
+@media (min-width: 1181px) {
+	.pagination-container,
+	.news {
+		width: 1182px;
+	}
+}

@@ -1,0 +1,16 @@
+$fontPrimary: "Lato", sans-serif;
+$fontSecondary: "Playfair Display", serif;
+
+p {
+	font-family: $fontPrimary;
+}
+
+h1,
+h2,
+h3 {
+	font-family: $fontSecondary;
+}
+
+footer {
+	font-family: $fontPrimary;
+}
